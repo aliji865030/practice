@@ -26,6 +26,10 @@ code {
   height: 100%;
   border-radius: 5px;
 }
+.image-card img:hover{
+  transform: scale(1.1);
+  transition: all .3s ease-in-out;
+}
 .image-main-div{
   display: flex;
   justify-content: center;
