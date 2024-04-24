@@ -9,7 +9,7 @@ const LandingScreen = () => {
 
   return (
     <div>
-      <h1 className='text-3xl font-semibold'>Click on an Image!</h1>
+      <h1 className='text-3xl font-semibold py-3'>Click on an Image!</h1>
       <div className='image-main-div'>
         {data.map((item,index)=>{
           return(
